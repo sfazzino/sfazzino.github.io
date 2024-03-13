@@ -1,0 +1,617 @@
+
+/*
+
+blu: #0D4B72
+
+blu scuro hover: #0E4C74
+
+blu scuro intestazioni: #103B5B
+
+blu chiaro: #2A5B89
+
+azzurro: #9CBDCD
+
+arancione scuro: #973400
+
+arancione: #E36A22
+
+arancione chiaro: #EA7F3F
+
+*/
+
+/* inizio icone.css */
+
+#ricercaImg {
+	border: solid 2px #CCCCCC;
+	background-color: #CCCCCC;
+}
+
+#dettagliImg {
+	border: solid 2px #CCCCCC;
+	background-color: #CCCCCC;
+}
+
+#calendarioImg {
+	border: solid 2px #CCCCCC;
+	background-color: #CCCCCC;
+}
+
+/* fine icone.css */
+
+
+/* inizio style.css */
+
+.sfondochiaro {
+    background-color: #F7F7F7;
+}
+
+#contenitoreModuloLogin {
+	border: 1px solid #0E4C74;
+}
+
+#moduloLogin {
+}
+
+#contenitoreTabellaLogin {
+	border: solid 1px #973400; 
+}
+
+#tabellaLogin {
+	border: solid 1px #FFFFFF; 
+	background-color: #E36A22;
+	color: #FFFFFF;
+}
+
+#utenteTop {
+	color: #FFFFFF;
+}
+
+#contenitoreSezioneLaterale {
+	background-color: #E57716;
+}
+
+#titoloSezione {
+	color: #103B5B;
+}
+
+.titolo {
+	color: #103B5B;
+}
+
+table.elenco {
+	border: solid 1px #000000;
+	color: #000000;
+	font-weight: bold;
+}
+
+table.elenco td {
+	border-left: solid 1px #000000;
+}
+
+table.elenco td, th {
+}
+
+table.elenco td {
+	border-bottom: solid 1px #000000;
+}
+
+table.elenco th {
+	background-color: #103B5B;
+	color: #FFFFFF;
+}
+
+table.elenco td:first-child {
+}
+
+
+
+
+table.elenco th a {
+	color: #FFFFFF;
+}
+
+table.elenco th a:link {
+	color: #FFFFFF;
+}
+
+table.elenco th a:hover {
+	color: #FFFFFF;
+}
+
+table.elenco th a:visited {
+	color: #FFFFFF;
+}
+
+table.elenco td:first-child {
+}
+
+
+
+
+
+table.generica {
+	border: solid 1px #000000;
+	color: #000000;
+}
+
+table.generica td {
+	border-left: solid 1px #000000;
+}
+
+table.generica td, th {
+}
+
+table.generica td {
+	border-bottom: solid 1px #000000;
+}
+
+table.generica th {
+	background-color: #103B5B;
+	color: #FFFFFF;
+}
+
+table.generica th a {
+	color: #FFFFFF;
+}
+
+table.generica th a:link {
+	color: #FFFFFF;
+}
+
+table.generica th a:hover {
+	color: #FFFFFF;
+}
+
+table.generica th a:visited {
+	color: #FFFFFF;
+}
+
+table.generica td:first-child {
+}
+
+
+
+
+
+tr.rigaDispari {
+	background-color: #F7F7F7;
+}
+
+tr.rigaDispari:hover {
+	background-color: #2674D8;
+	color: #F7F7F7;
+}
+
+tr.rigaPari {
+	background-color: #DDDDDD;
+}
+
+tr.rigaPari:hover {
+	background-color: #2674D8;
+	color: #F7F7F7;
+}
+
+tr.rigaDispariSenzaHover {
+	background-color: #F7F7F7;
+}
+
+tr.rigaPariSenzaHover {
+	background-color: #DDDDDD;
+}
+
+tr.rigaAllertSenzaHover {
+	background-color: #FFFFCC;
+}
+
+.cellaDispari {
+	background-color: #F7F7F7;
+}
+
+.cellaDispari:hover {
+	background-color: #2674D8;
+	color: #F7F7F7;
+}
+
+.cellaPari {
+	background-color: #DDDDDD;
+}
+
+.cellaPari:hover {
+	background-color: #2674D8;
+	color: #F7F7F7;
+}
+
+.cellaDispariSenzaHover {
+	background-color: #F7F7F7;
+}
+
+.cellaPariSenzaHover {
+	background-color: #DDDDDD;
+}
+
+.cellaAllertDuplicato {
+	background-color: #FFFF66;
+}
+
+#navBottom {
+	border: solid 1px #0169A6;
+	background-color: #868F96;
+}
+
+.trasparenza {
+}
+
+.centrato {
+}
+
+.borderLeft {
+}
+
+.borderTop {
+}
+
+.borderRight {
+}
+
+.borderBottom {
+}
+
+.lampeggiante {
+}
+
+.modulo {
+    border: solid 1px #000000;
+    background-color: #F7F7F7;
+}
+
+.modulo label {
+    margin-left: 5px;
+} 
+
+table.modulo td, th {
+}
+
+.modulo th {
+}
+
+.modulo th.large {
+}
+
+.modulo th.large div {
+    background-color: #103B5B;
+    color: #FFFFFF;
+}
+
+input {
+}
+
+select {
+        background-color: #FFFFFF;
+    }
+        
+.legenda {
+    color: #770000;
+}
+
+.obbligatorio {
+    color: #770000;
+}
+
+
+
+/* inizio ricerca semplice */
+
+#contenitoreRicercaSemplice {
+	border: solid 1px #000000;
+	background-color: #F7F7F7;
+}
+
+#ricercaSempliceVisibile {
+}
+
+#titoloRefertazione {
+}
+
+#ricercaSempliceNascosta {
+}
+
+#linguettaRicercaSemplice {
+	background-color: #868F96;
+	border: solid 1px #103B5B;
+}
+
+#apriRicercaSemplice {
+}
+
+#chiudiRicercaSemplice {
+	display: none;
+}
+
+/* fine ricerca semplice */
+
+
+#intestazioneRefertazione {
+	border: solid 1px #000000;
+	background-color: #F7F7F7;
+}
+
+#intestazioneRefertazioneVisibile {
+}
+
+#tabellaIntestazioneRefertazione caption {
+	background-color: #103B5B;
+	color: #FFFFFF;
+}
+
+#intestazioneRefertazioneNascosta {
+}
+
+#linguettaIntestazioneRefertazione {
+	background-color: #868F96;
+	border: solid 1px #103B5B;
+}
+
+#chiudiIntestazRef {
+}
+
+
+#listaPrecedenti {
+}
+
+#listaPrecedenti li {
+}
+
+#listaPreimpostati {
+}
+
+#listaPreimpostati li {
+}
+
+#riepilogoAccettazione {
+}
+
+#riepilogoPrestazioni {
+}
+
+#riepilogoEsecuzione {
+}
+
+.tblDett {
+}
+
+.tableDettaglio {
+	background-color: #CCCCCC;
+}
+
+.tableDettaglio caption {
+	background-color: #CCCCCC;
+}
+
+.tableDettaglio caption div {
+	background-color: #103B5B;
+	color: #FFFFFF;
+}
+
+.tableDettaglio th {
+}
+
+.serieImmagini {
+}
+
+.serieImmagini caption {
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	background-color: #103B5B;
+}
+
+.divisore {
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	background-color: #103B5B;
+}
+
+.serieImmagini th {
+}
+
+#imgPreviewWithStyles {
+	background: #222222;
+}
+
+#imgPreviewWithStyles span {
+	color: #FFFFFF;
+}
+
+.visualizzaMessaggiSx {
+	background-color: #E57716;
+}
+
+/* fine style.css */
+
+
+/* inizio immagini.css */
+
+#visualizzaMessaggiImg {
+	background-color: #E57716;
+}
+
+#visualizzaMessaggiSxImg {
+	background-color: #E57716;
+}
+
+/* fine immagini.css */
+
+
+/* inizio layout.css */
+
+body {
+}
+
+.pulizia {
+}
+
+#contenitore {
+}
+
+#wrapper, #content-wrapper {
+}
+
+#content-wrapper {
+}
+
+#header {
+	background: #333333;
+}
+
+#avvisi {
+}
+
+#avvisicontent {
+}
+
+.allarme {
+	background-color: #E57716;
+}
+
+#popupAllarme {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#popupAllarme a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+.messaggio {
+    background-color: #F7F7F7;
+    border: 1px dotted #000000;
+}
+
+#popupMessaggio {
+    background-color: #000A31;
+    color: #000000;
+}
+
+#popupMessaggio a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+/* SX */
+
+.allarmeSx {
+	background-color: #E57716;
+}
+
+#popupAllarmeSx {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#popupAllarmeSx a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+#popupMessaggioSx {
+    background-color: #000A31;
+    color: #000000;
+}
+
+#popupMessaggioSx a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+/* fine SX */
+
+
+#logoProdotto {
+}
+
+#logoMI {
+}
+
+#logoMI img {
+}
+
+#logout {
+}
+
+#preferences {
+}
+
+#footer {
+}
+
+/* fine layout.css */
+
+
+/* inizio popup.css */
+
+#fade {
+	background: #000000;
+}
+
+.popup_block{
+	background: #fff;
+	border: 20px solid #ddd;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+}
+
+img.btn_close {
+}
+
+.popup p {
+}
+
+*html #fade {
+}
+
+*html .popup_block {
+}
+
+a.nonfirmato { 
+    color: #FF0000; 
+}
+
+a.nonfirmato:link { 
+    color: #FF0000; 
+}
+
+a.nonfirmato:hover { 
+    color: #FF0000; 
+}
+
+a.nonfirmato:visited { 
+    color: #FF0000; 
+}
+
+input.duplicato {
+    background-color: #FFFF66;
+}
+
+select.duplicato1{
+    background-color: #FFFF66;
+}
+
+
+button.Add {
+    width: 5em;
+    background-color: #CCCCCC;
+    color: #000000;
+-webkit-border-radius: .8em;
+-moz-border-radius: .8em;
+border-radius: .8em;
+
+
+}
+
+button.Add:hover {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+/* fine popup.css */
+
+
+
+

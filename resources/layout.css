@@ -1,0 +1,242 @@
+/* 
+    Document   : layout
+    Created on : 22-giu-2011, 15.05.49
+    Author     : enrico
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-width: 640px;
+    min-height: 768px;
+}
+
+.pulizia {
+    clear: both;
+}
+
+#contenitore {
+    width: 100%;
+}
+
+#wrapper, #content-wrapper {
+    float: left;
+    width: 100%;
+}
+
+#content-wrapper {
+
+}
+
+#header {
+    background: #333333;
+}
+
+/* sezione */
+
+#boxSezioni {
+    clear: right;
+    float: right;
+    width: 36px;
+    position: relative;
+    right: 0px;
+    z-index: 999;
+}
+
+#linguettaSezioni {
+    float: left; 
+    cursor: pointer;
+}
+
+
+/* fine sezione */
+
+
+/**/
+#avvisi {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#avvisicontent {
+    margin: 0 150px 0 150px;
+    text-align: center;
+}
+
+.allarme {
+    clear: right;
+    float: right;
+    width: 35px;
+    position: relative;
+    right: 35px;
+    z-index: 999;
+    text-align: center;
+}
+
+#popupAllarme {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+}
+
+#popupAllarme a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+.messaggio {
+    background-color: #F7F7F7;
+    border: dotted;
+    border-color: #000000;
+    border-width: 1px;
+    margin: 2px;
+    text-align: center;
+}
+
+#popupMessaggio {
+    background-color: #000A31;
+    color: #000000;
+    font-weight: bold;
+}
+
+#popupMessaggio a, a:link, a:visited, a:hover {
+    color: #000000;
+}
+
+/* SX */
+
+.allarmeSx {
+    clear: left;
+    float: left;
+    width: 36px;
+    position: relative;
+    z-index: 999;
+    text-align: center;
+}
+
+#popupAllarmeSx {
+    font-weight: bold;
+}
+
+#popupAllarmeSx a, a:link, a:visited, a:hover {
+
+}
+
+#popupMessaggioSx {
+    font-weight: bold;
+}
+
+#popupMessaggioSx a, a:link, a:visited, a:hover {
+
+}
+
+#avvisiLateraliSx {
+    clear: left;
+    float: left;
+    width: 35px;
+    position: relative;
+    z-index: 999;
+}
+
+#avvisiLateraliInternoSx {
+    width: 350px;
+    height: 60px;
+}
+
+#cellaAvvisiSx {
+}
+
+#linguettaAvvisiSx {
+    width: 36px;
+    float: left; 
+    cursor: pointer;
+}
+
+
+/* fine SX */
+
+#logoProdotto {
+    float: left;
+    width: 150px; /*Width of left column in percentage*/
+    margin-left: -100%;
+    padding-left: 10px;
+}
+
+#logoMI {
+    float: left;
+    width: 120px; /*Width of right column in pixels*/
+    margin-left: -120px; /*Set margin to that of -(RightColumnWidth)*/
+}
+
+#logoMI img {
+    margin: 5px;
+}
+
+
+
+
+#logout {
+    float: right;
+    margin-right: 10px;
+}
+
+#preferences {
+    float: right;
+    margin-right: 10px;
+}
+
+/* */
+
+#contenitoreOperazioni {
+    float: left;
+}
+
+#operazioni {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
+
+.operazione {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.operazione:hover {
+
+}
+
+.ultimaOperazione {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.ultimaOperazione:hover {
+
+}
+
+#delimitaMenuOrizzontale {
+    float: left;
+}
+
+
+
+/**/
+
+
+#footer {
+    clear: left;
+    width: 100%;
+    text-align: center;
+    padding: 4px 0;
+}
+

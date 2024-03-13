@@ -1,0 +1,126 @@
+/* 
+    Document   : layout
+    Created on : 22-giu-2011, 15.05.49
+    Author     : enrico
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/**/
+
+/*
+#contenitoreOperazioni {
+	float: left;
+}
+
+#operazioni {
+	font-weight: bold;
+	margin: 2px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	float: left;
+	padding-right: 5px;
+}
+
+#delimitaMenuOrizzontale {
+	float: left;
+}
+*/
+.operazioniRighe {
+	float: right;
+	height: 30px;
+}
+
+.delimitaMenuOrizzontale1 {
+	float: right;
+}
+
+#boxRicerca {
+	clear: right;
+	float: right;
+	width: 35px;
+	position: relative;
+	right: 350px;
+	z-index: 999;
+}
+
+#cerca {
+	float: left; 
+	cursor: pointer;
+}
+
+#tableBoxRicerca {
+	width: 350px;
+}
+
+#left {
+	float: left;
+	width: 35px; /*Width of left column in percentage*/
+	margin-left: -100%;
+	margin-top: 30px;
+}
+
+#right {
+	float: right;
+	width: 0px; 
+	margin-right: 0px; 
+}
+
+#avvisiLaterali {
+	clear: right;
+	float: right;
+	width: 35px;
+	position: relative;
+	right: 350px;
+	z-index: 999;
+}
+
+#avvisiLateraliInterno {
+	width: 350px;
+}
+
+#cellaAvvisi {
+}
+
+#linguettaAvvisi {
+    height: 60px;
+	width: 36px;
+	float: left; 
+	cursor: pointer;
+}
+
+
+#boxDettagli {
+	clear: right;
+	float: right;
+	width: 35px;
+	position: relative;
+	right: 216px;
+	z-index: 999;
+}
+
+#dettagli {
+	float: left; 
+	cursor: pointer;
+	width: 35px;
+}
+
+#tableBoxDettagli {
+	font-size: 70%;
+	padding: 5px;
+        width: 450px;
+}
+
+#tableBoxDettagli caption {
+	text-align: left;
+	padding: 2px;
+}
+
+#contenutoEsterno {
+	margin: 0px;
+}
+
+
+
+

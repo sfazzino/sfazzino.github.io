@@ -1,0 +1,200 @@
+<html>
+    <head>
+        <title>Esami del paziente FAZZINO^LORENZO</title>
+        <link href="resources/coloriGenerici.css" rel="stylesheet" type="text/css">
+        <link href="resources/coloriLay1col.css" rel="stylesheet" type="text/css">
+
+        <link href="resources/layout.css" rel="stylesheet" type="text/css">
+        <link href="resources/lay1col.css" rel="stylesheet" type="text/css">
+        <link href="resources/style.css" rel="stylesheet" type="text/css">
+        <link href="resources/immagini.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript" src="resources/js/jquery-1.11.1.min.js" ></script>
+		<script type="text/javascript" src="resources/js/jquery-ui-1.11.2.custom/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="resources/js/jquery.bpopup-0.10.0.min.js" ></script>
+
+        <link href="resources/js/jquery-ui-1.11.2.custom/jquery-ui.theme.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body>
+
+        <div id="contenutoEsterno">
+            <div id="titoloSezione">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="left" valign="middle"><img height="100" src="resources/prodotto.jpg"></td>
+                        <td align="left" valign="top">
+                            <div class="titolo">
+                                Power PACS on Web<br />
+                                <span class="azienda-cliente">
+                                    
+                                                                        <br>
+                                    
+                                                                    </span>
+                                <br /><br />
+                                Esami del paziente FAZZINO^LORENZO
+                            </div>
+                        </td>
+                        <td>
+                            <a href="viewerWin/eFilmLt.exe"><img src="resources/X-Draw_Light_small.jpg" alt="visualizzatore dicom" title="visualizzatore dicom" border="0" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="contenuto">
+
+				<!--applet
+					CODEBASE="./resources/open"
+					CODE="open.ApriAlma"
+					NAME="open"
+					WIDTH = "48"
+					HEIGHT = "48"
+					HSPACE = 0
+					VSPACE = 0
+					ALIGN = MIDDLE
+					ARCHIVE="open.jar" >
+					<param name="exefile" value="../../A3DLauncher.exe">
+				</applet-->
+
+                <table width="100%" class="tblDett tableDettaglio" style="margin-bottom: 20px; ">
+                    <caption class="borderLeft borderTop borderRight"><div>Dati anagrafici paziente</div></caption>
+                    <tr class="rigaPariSenzaHover">
+                        <th class="centrato"><strong>ID</strong></th>
+                        <th class="centrato"><strong>Cognome e Nome</strong></th>
+                        <th class="centrato"><strong>Data nascita</strong></th>
+                        <th class="centrato"><strong>Sesso</strong></th>
+                    </tr>
+                    <tr class="rigaDispariSenzaHover">
+                        <td>*SRVZOASS0105844</td>
+                        <td>FAZZINO^LORENZO</td>
+                        <td>27/06/2011</td>
+                        <td>M</td>
+                    </tr>
+                </table>
+                <br />
+                <table class="elenco" width="100%" cellspacing="0">
+                    <tr>
+                        <th>ID</th>
+                        <th>Data</th>
+                        <th>Modalita'</th>
+                        <th>NSer</th>
+                        <th>NImm</th>
+                        <th>P.Corpo</th>
+                        <th>Descrizione</th>
+                        <th>Struttura</th>
+                        <th>Dipartimento</th>
+                        <th>Documenti</th>
+                    </tr>
+                                                                                                    <tr class="rigaDispari">
+                        <td cella-href="IMAGES/ESAME0/serie0.html">2776</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">27/02/2024</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">MR</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">14</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">767</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">&nbsp;</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">RM DEL CERVELLO E DEL TRONCO ENCEFALICO</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">Ospedale E. Muscatello</td>
+                        <td cella-href="IMAGES/ESAME0/serie0.html">Department</td>
+                        <td align="center">
+                                                                                        <a href="javascript:apriDocModal('REPORT/ESAME0/AU20240201553_3922210_0_0.pdf', 800, 500)" ><img border="0" height="32" src="resources/icone_docs/file_extension_pdf.png"></a>
+                                                            
+                                                                                    &nbsp;
+                        </td>
+                    </tr>
+                                    </table>
+            </div>
+        </div>
+
+        <style>
+			.clickable  {
+				cursor: pointer;
+			}
+
+            #tuttipopup iframe {
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:100%;
+                height:100%;
+                /*overflow:hidden;*/
+                border:none;
+            }
+        </style>
+		<div id="somediv" align="center" title="" style="display:none; background: #FFFFFF; width: 100%; border: 1px solid;">
+			<iframe id="thedialog" width="800" height="500" style="border: 1px  solid;"></iframe>
+		</div>
+        <div id="tuttipopup" style="display: none; background: #FFFFFF; width: 800px; height: 600px;">
+            <div id="pContent">
+                <a class="bClose" style="cursor:pointer;font-weight:bold;position:absolute;right:15px;text-decoration:none;top:10px;"/>
+            </div>
+        </div>
+        <script>
+
+            function apriDocModal(uri, width, height) {
+
+				$("#thedialog").attr('src', uri);
+				$("#somediv").dialog({
+					width: "100%",
+					height: height,
+					modal: true,
+					resizable: false,
+					position: { my: "left top", at: "left bottom", of: window },
+					closeText: "chiudi",
+					close: function () {
+						$("#thedialog").attr('src', "about:blank");
+					}
+				});
+            }
+
+            function apriPopupModal(uri, width, height) {
+                $("#tuttipopup").css("width", width);
+                $("#tuttipopup").css("height", height);
+                $("#tuttipopup").bPopup({
+                    appendTo: 'body',
+                    content:'iframe',
+                    contentContainer:'#pContent',
+                    follow:[true, true, false],
+                    followSpeed: 0,
+                    fadeSpeed: 300,
+                    opacity: 0.6,
+                    modalClose: true,
+                    position: ['auto','auto'],
+                    positionStyle: 'fixed',
+                    scrollBar: true,
+                    loadUrl: uri,
+                    zIndex: 9999999999
+                });
+                $("#tuttipopup iframe").attr("scrolling" , "yes");
+
+            }
+
+
+            function apriDivPopupModal(idDiv, width, height) {
+                $("#" + idDiv).css("width", width);
+                $("#" + idDiv).css("height", height);
+                $("#" + idDiv).bPopup({
+                    appendTo: 'body',
+                    fadeSpeed: 300,
+                    opacity: 0.6,
+                    modalClose: true,
+                    position: ['auto','auto'],
+                    positionStyle: 'fixed',
+                    zIndex: 9999999999
+                });
+            }
+
+            $(document).ready(function() {
+                jQuery( function($) {
+                    $('table td[cella-href]').addClass('clickable').click( function() {
+                        window.location = $(this).attr('cella-href');
+                    });
+                });
+            });
+
+        </script>
+    </body>
+
+</html>
+

@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-/W3C/DTD HTML 4.01 Transitional/EN" "http:/www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Webviewer - FAZZINO^LORENZO</title>
+
+        <script type="text/javascript" language="javascript" src="../../resources/prototype.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/ahpi.imgload.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/jquery.jqote2.min.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/oviyam7.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/imageDrag.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/imageZoom.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/ajaxLoadPage.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/keyNavigation.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/sortTable.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/webtoolkit.sortabletable.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/scriptaculous.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/builder.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/effects.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/dragdrop.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/controls.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/slider.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/DatePicker.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/windowLevel.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/VLCobject.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/VLCcontrols.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/ExternalLibLoader.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/imageMeasure.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/LightBox.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/Ruler.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/raphael-min.js"></script>
+        <script type="text/javascript" language="javascript" src="../../resources/raphaelle.js"></script>
+
+<script>
+    var xPixelSpacingArray = new Array();
+    var yPixelSpacingArray = new Array();
+    var nativeRowsArray = new Array();
+</script>
+
+        <link type="text/css" rel="StyleSheet" href="../../resources/oviyam7.css">
+        <link type="text/css" rel="StyleSheet" href="../../resources/dcm-style.css">
+        <link rel="shortcut icon" href="../../resources/icons/favicon.ico">
+
+    </head>
+
+
+    <body id="body" style="background-color: rgb(38, 38, 38); background-position: initial initial; background-repeat: initial initial; ">
+        <div id="pageHeader">
+
+            <div style="padding-left: 10px; padding-top: 10px; float: left;">
+                <a href="../../index.html"><img src="../../resources/back-icon.png" alt="torna all'elenco degli esami" title="torna all'elenco degli esami" border="0" /></a>
+            </div>
+
+            <div id="patientDisName" style="visibility: visible; ">FAZZINO^LORENZO</div>
+
+            <button id="hideButton" class="large" onclick="hideTools();" style="background-image: url('../../resources/buttons/show_tools.gif'); background-attachment: scroll; background-color: transparent; background-position: 0px 0px; background-repeat: no-repeat no-repeat; "></button>
+        </div>
+
+        <div id="toolBar" style="visibility: visible; overflow: hidden; ">
+            <div id="toolBarContainer" style="bottom: 50px; ">
+
+                <div id="resetButton" class="toolBarButton" onclick="resetAll();">
+                    <div class="toolBarText toolBarTextNonMode">Reset</div>
+                </div>
+
+                <div id="moveButton" class="toolBarButton moveButton">
+                    <div class="toolBarText" id="moveText">Move</div>
+                </div>
+
+                <div id="measureButton" class="measureButton toolBarButton" style="cursor: pointer; ">
+                    <div class="toolBarText" id="measureText">Measure</div>
+                </div>
+
+                <div id="zoomButton" class="toolBarButton zoomButton">
+                    <div class="toolBarText" id="zoomText">Zoom on</div>
+                </div>
+
+                <div id="zoomInButton" class="toolBarButton" onmouseover="zoom(512,512,'picture','in');" onmouseout="clearzoom()" style="visibility: hidden; ">
+                    <div class="toolBarText">Zoom in</div>
+                </div>
+
+                <div id="zoomOutButton" class="toolBarButton" onmouseover="zoom(512,512,'picture','out');" onmouseout="clearzoom()" style="visibility: hidden; ">
+                    <div class="toolBarText">Zoom out</div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="seriesPane" style="visibility: visible; width: 200px; background-color: rgb(38, 38, 38); top: 57px; background-position: initial initial; background-repeat: initial initial; ">
+
+            <div align="center">
+                <div>
+                    <table>
+                        <tbody>
+                                                                                                                                                                                                                        <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series1" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715431389316797607.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie0.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 128</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series2" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022716013364124402999.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie1.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 32</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series3" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022716130262674411321/thumbnails/IMG1.jpg" onclick="window.location = 'serie2.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 100</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series4" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022716125792078403808.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie3.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 160</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series5" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754571498668.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie4.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 5</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series6" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie5.html'" style="border: 1px solid rgb(255, 0, 0); ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 3</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series7" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754637498678.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie6.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 3</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series8" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715520417876099820.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie7.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 72</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series9" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715464372621899302.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie8.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 32</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series10" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715494477278999693.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie9.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 32</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series11" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715520417876299821.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie10.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 36</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series12" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022715583618494502786.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie11.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 32</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series13" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022716013251390002950.0.0.0/thumbnails/IMG1.jpg" onclick="window.location = 'serie12.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 32</div><br />
+                                    </td>
+                                </tr>
+                                                                                                                                                            <tr>
+                                    <td>
+                                        <div class="image">
+                                            <img id="series14" width="128px" class="reflec" src="./1.3.12.2.1107.5.2.18.142241.2024022716130263774511422/thumbnails/IMG1.jpg" onclick="window.location = 'serie13.html'" style=" ">
+                                        </div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">unknown</div>
+                                        <div class="seriesDetails" style="color: rgb(255, 204, 0); ">Total Images : 100</div><br />
+                                    </td>
+                                </tr>
+                                                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="seriesDivider" onclick="hideSeries();" title="Click or press 's' to toggle series visibility" style="left: 200px; background-color: rgb(217, 217, 217); top: 57px; background-position: initial initial; background-repeat: initial initial; ">
+            <img id="dividerImg" src="../../resources/icn_grip1.gif" alt="" />
+        </div>
+
+        <div id="imagePane" style="visibility: visible; left: 200px; background-color: rgb(38, 38, 38); top: 57px; background-position: initial initial; background-repeat: initial initial; ">
+
+            <div id="left">
+
+                <div class="shadow" id="patStudyDesc" style="color: rgb(255, 204, 0); ">RM DEL CERVELLO E DEL TRONCO ENCEFALICO</div>
+                <div class="shadow" id="patSex" style="color: rgb(255, 204, 0); "></div>
+                <div class="shadow" onclick=" even=document.getElementById('picture').event; initwl();" id="patPhyName" style="color: rgb(255, 204, 0); "></div>
+                <div class="shadow" id="patBirthDate" style="color: rgb(255, 204, 0); ">27/06/2011</div>
+                <div class="shadow" id="patStudyDate" style="color: rgb(255, 204, 0); ">27/02/2024</div>
+                <div class="shadow" id="patModality" style="color: rgb(255, 204, 0); ">MR</div>
+
+                <div class="shadow" id="windowLevel" style="color: rgb(255, 204, 0); "><!--WL: 50 WW: 500--></div>
+                <div class="shadow" id="pixelSpacing" style="color: rgb(255, 204, 0); "><!--Pixel Spacing Row: 0.545455 , Column: 0.596847--></div>
+                <div class="shadow" id="pixelMessage" style="color: rgb(255, 204, 0); "></div>
+                <div class="shadow" id="nativeRes" style="color: rgb(255, 204, 0); "><!--<p>Native Resolution:1888px by 888px</p>--></div>
+
+                <div class="shadow" id="full_resolution" style="visibility: hidden; color: rgb(255, 204, 0); " onclick="showFullResolution();">&nbsp;View Full Resolution&nbsp;</div>
+
+                <div class="shadow" id="number" style="color: rgb(255, 204, 0); ">Image 1 of 128</div>
+                <table id="imgTable">
+                    <tbody>
+                        <tr>
+                            <td class="imageHolder">
+                                <div id="imageHolder" class="imageHolder">
+                                    <img style="" alt="" class="dragme" name="picture" src="" width="512" id="picture" />
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="thumbNails" class="flexcroll" style="background-color: rgb(38, 38, 38); background-position: initial initial; background-repeat: initial initial; ">
+
+                <div id="thumbDivider" onclick="singleImage();" title="Click or press 'i' to toggle thumbnails visibility" style="background-color: rgb(217, 217, 217); background-position: initial initial; background-repeat: initial initial; ">
+                    <img id="dividerImg" src="../../resources/icn_grip1.gif" alt="" />
+                </div>
+
+                <div id="imageCacheHolder" style="display:none">
+                </div>
+
+                <div id="thumbNailHolder">
+                                        
+                                                
+                        <div class="scale-item">
+                            <div class="imgNo">1</div>
+                            <input type="hidden" id="imgs0" name="imgs0" style="position:fixed;top:0px;">
+                            <img alt="" id="imgSmall0" name="imgSmall0" class="scale-image measurable" style="border: 1px solid rgb(255, 0, 0); " src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/thumbnails/IMG1.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(0); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" >
+                            <img alt="" id="img0" name="img0" class="scale-image measurable" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/jpg/IMG1.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(0); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" style="display:none; ">
+                        </div>
+                        <script>
+                                                            document.getElementById('picture').src = "./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/jpg/IMG1.jpg";
+                            
+                            xPixelSpacingArray["IMG1.jpg"] = 1.60000002384;
+                            yPixelSpacingArray["IMG1.jpg"] = 1.60000002384;
+                            nativeRowsArray["IMG1.jpg"] = 162;
+                        </script>
+                                            
+                                                
+                        <div class="scale-item">
+                            <div class="imgNo">2</div>
+                            <input type="hidden" id="imgs1" name="imgs1" style="position:fixed;top:0px;">
+                            <img alt="" id="imgSmall1" name="imgSmall1" class="scale-image measurable" style=" " src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/thumbnails/IMG2.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(1); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" >
+                            <img alt="" id="img1" name="img1" class="scale-image measurable" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/jpg/IMG2.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(1); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" style="display:none; ">
+                        </div>
+                        <script>
+                            
+                            xPixelSpacingArray["IMG2.jpg"] = 1.60000002384;
+                            yPixelSpacingArray["IMG2.jpg"] = 1.60000002384;
+                            nativeRowsArray["IMG2.jpg"] = 162;
+                        </script>
+                                            
+                                                
+                        <div class="scale-item">
+                            <div class="imgNo">3</div>
+                            <input type="hidden" id="imgs2" name="imgs2" style="position:fixed;top:0px;">
+                            <img alt="" id="imgSmall2" name="imgSmall2" class="scale-image measurable" style=" " src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/thumbnails/IMG3.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(2); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" >
+                            <img alt="" id="img2" name="img2" class="scale-image measurable" src="./1.3.12.2.1107.5.2.18.142241.2024022715431754614798674.0.0.0/jpg/IMG3.jpg" width="100%" onclick="if (cineloop) cineLoop(); setImageInfos('3'); changeslides(2); changeBorder(this); changeDataset();" onload="checkResolution(0); loadStudyDesc('RM DEL CERVELLO E DEL TRONCO ENCEFALICO');" style="display:none; ">
+                        </div>
+                        <script>
+                            
+                            xPixelSpacingArray["IMG3.jpg"] = 1.60000002384;
+                            yPixelSpacingArray["IMG3.jpg"] = 1.60000002384;
+                            nativeRowsArray["IMG3.jpg"] = 162;
+                        </script>
+                                                            </div>
+            </div>
+        </div>
+
+        <div id="footerArea">
+            <div id="pageFooter">
+                <table width="100%">
+                    <tbody>
+                        <tr>
+                            <td width="45%">
+                                <div id="viewControls">
+                                    <div title="Click or press 'p' to toggle patient visibility" id="viewPatient" class="viewSwitcher" onclick="hidePatient();hideDataSet();" style="color: rgb(97, 97, 97); ">
+                                        <div class="label">Patient</div>
+                                    </div>
+
+                                    <div title="Click or press 's' to toggle series visibility" id="viewSeries" class="viewSwitcher" onclick="hideSeries();hideDataSet();" style="color: rgb(255, 255, 255); background-image: url('../../resources/icons/icn_series_1.png'); background-color: transparent; background-position: initial initial; background-repeat: no-repeat no-repeat; ">
+                                        <div class="label">Series</div>
+                                    </div>
+
+                                    <div title="Click or press 'g' to display this series in grid view" id="gridView" class="viewSwitcher" onclick="gridView();hideDataSet();" style="color: rgb(97, 97, 97); ">
+                                        <div class="label">Grid</div>
+                                    </div>
+
+                                    <div title="Click or press 'm' to display this series in mosaic view" id="mosaicView" class="viewSwitcher" onclick="mosaicView();hideDataSet();" style="color: rgb(97, 97, 97); ">
+                                        <div class="label">Mosaic</div>
+                                    </div>
+
+                                    <div title="Play a cineLoop of this series" id="cineLoop" class="viewSwitcher" onclick="cineLoop();hideDataSet();" style="background-image: url('../../resources/icons/icn_play_0.png'); color: rgb(97, 97, 97); background-position: 0px 50%; background-repeat: no-repeat no-repeat; ">
+                                        <div class="label">Loop</div>
+                                    </div>
+
+                                    <div id="cineSlider" style="position: relative; visibility: hidden; " class="viewSwitcher">
+                                        <div id="cineTrack" style="width: 140px; background-image: url('../../resources/icons/icn_slider_track.png'); background-repeat: repeat-x; background-position: left; height: 10px;">
+                                            <div id="cineHandle" style="width: 18px; background-image: url(../../resources/icons/icn_slider_handle.png); height: 15px; left: 61px; position: relative; background-position: 100% 50%; background-repeat: no-repeat no-repeat; " class="selected"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td><img src="../../resources/X-Web_logo_small.png" alt="" title=""></td>
+                            <td width="300" align="right">
+                                <div class="colorChooser" id="colorChooser">
+                                    <div class="label">Background:&nbsp;</div>
+                                    <div title="view this page with a black background" id="black" class="backColor" onclick="changeBlack();" onmouseover="setCursor()" style="background-image: url('../../resources/icons/icn_black_backColor.png'); background-attachment: scroll; background-color: transparent; background-position: 0px -56px; background-repeat: no-repeat no-repeat; ">
+                                    </div>
+
+                                    <div title="view this page with a dark gray background" id="dkgrey" class="backColor" onclick="changeGray();" onmouseover="setCursor()" style="cursor: default; background-image: url('../../resources/icons/icn_dkgrey_backColor.png'); background-attachment: scroll; background-color: transparent; background-position: 0px -18px; background-repeat: no-repeat no-repeat; ">
+                                    </div>
+
+                                    <div title="view this page with a light gray background" id="ltgrey" class="backColor" onclick="changeLightGray();" onmouseover="setCursor()" style="background-image: url('../../resources/icons/icn_ltgrey_backColor.png'); background-attachment: scroll; background-color: transparent; background-position: 0px -56px; background-repeat: no-repeat no-repeat; ">
+                                    </div>
+
+                                    <div title="view this page with a white background" id="white" class="backColor" onclick="changeWhite();" onmouseover="setCursor()" style="background-image: url('../../resources/icons/icn_white_backColor.png'); background-attachment: scroll; background-color: transparent; background-position: 0px -56px; background-repeat: no-repeat no-repeat; ">
+                                    </div>
+                                </div>
+                            </td>
+                            <td width="200">
+                                <div id="sizeSlider" class="viewSwitcher" style="position: relative; margin-top: 13px;">
+                                    <div id="track" style="width: 140px; background-image: url('../../resources/icons/icn_slider_track.png'); background-repeat: repeat-x; background-position: left; height: 10px;">
+                                        <div id="handle" style="width: 18px; background-image: url('../../resources/icons/icn_slider_handle.png'); height: 15px; left: 61px; position: relative; background-position: 100% 50%; background-repeat: no-repeat no-repeat; " class="selected">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="loadingView" style="visibility: hidden; ">
+            <div id="spinnerDiv"><img src="../../resources/overlay_spinner.gif" alt="">
+                <div id="loadingText" class="loadingText">Loading Images...</div>
+            </div>
+        </div>
+
+        <script type="text/javascript" language="javascript">
+            var demoSlider = new Control.Slider(
+                'handle',
+                'track',
+                {axis:'horizontal', minimum: 0, maximum:250, alignX: 00,increment: 2, sliderValue: 0.5}
+            );
+            demoSlider.options.onSlide = function(value){
+                scaleIt(value);
+            }
+            demoSlider.options.onChange = function(value){
+                scaleIt(value);
+            }
+
+            var cineSlider = new Control.Slider('cineHandle','cineTrack',{axis:'horizontal', minimum:100, maximum:1000, alignX:00,increment:100, sliderValue:0.5});
+            cineSlider.options.onSlide = function(value){
+                changeSpeed(1000-(value*1000));
+            }
+            cineSlider.options.onChange = function(value){
+                changeSpeed(1000-(value*1000));
+            }
+            
+            setImageInfos('3');
+            changeslides(0);
+            showTools();
+            initScroll();
+            //hideTools();
+
+        </script>
+
+
+        <div align="center">
+            <div id="dataSet" style="visibility:hidden;">
+                <div id="dsImageHolder"><img src="" title="Back to Image" id="dataSetImage" alt="" onclick="hideDataSet();"><br />
+                    <div id="dataSetPatient" class="ds"></div>
+                    <br />
+                    <div id="stuDesc" class="ds"></div>
+                    <br />
+                    <input type="button" value="Back to Image" onclick="hideDataSet();">
+                </div>
+                <div id="dataSetHolder"></div>
+            </div>
+        </div>
+
+                    <script>
+                        document.getElementById('series6').focus();
+                    </script>
+
+    </body>
+</html>

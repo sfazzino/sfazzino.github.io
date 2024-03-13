@@ -1,0 +1,245 @@
+
+body {
+	background-image:url(images/X_sbiadita_small.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#content-wrapper {
+	background-image: url(images/ombraTop.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+
+.bodyHome {
+	background-image:url(images/X_sbiadita_small.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#navBottom {
+	background-image: url(images/bgbottom.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#linguettaRicercaSemplice {
+	background-image: url(images/bgbottom.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#linguettaIntestazioneRefertazione {
+	background-image: url(images/bgbottom.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#delimitaMenuOrizzontaleImg {
+	background-image: url(images/delimitaMenuOrizzontale.gif);
+	width: 20px;
+	height: 30px;
+}
+
+.delimitaMenuOrizzontale1Img {
+	background-image: url(images/delimitaMenuOrizzontale1.gif);
+	width: 20px;
+	height: 30px;
+}
+
+#delimitaRicerca {
+	background-image: url(images/delimitaRicerca.gif);
+	width: 36px;
+	height: 20px;
+}
+
+#delimitaAvvisi {
+	background-image: url(images/delimitaAvvisiArancio.gif);
+	width: 36px;
+	height: 20px;
+}
+
+#delimitaAvvisiSx {
+	background-image: url(images/delimitaAvvisiArancioSx.gif);
+	width: 36px;
+	height: 20px;
+}
+
+#lineaSfumataBottom {
+	background-image: url(images/lineaSfumata.gif);
+	width: 300px;
+	height: 1px;
+}
+
+#logoBottom {
+	background-image: url(images/X-Web.jpg);
+	width: 109px;
+	height: 30px;
+	border: 0px;
+}
+
+#visualizzaAllarmiImg {
+	cursor: pointer; 
+	background-image: url(images/Alarm-Warning-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+	border: 0px;
+}
+
+#visualizzaAllarmiImg:hover {
+	background-image: url(images/Alarm-Warning-icon-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+}
+
+#visualizzaMessaggiImg {
+	cursor: pointer; 
+	background-image: url(images/Chat-icon2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px; 
+	border: 0px;
+}
+
+#visualizzaMessaggiImg:hover {
+	background-image: url(images/Chat-icon2-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px; 
+}
+
+#visualizzaAllarmiSxImg {
+	cursor: pointer; 
+	background-image: url(images/Alarm-Warning-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+	border: 0px;
+}
+
+#visualizzaAllarmiSxImg:hover {
+	background-image: url(images/Alarm-Warning-icon-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+}
+
+#disabilitaImg {
+	cursor: pointer; 
+	background-image: url(images/Stop-Alarm-Warning-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px; 
+	border: 0px;
+}
+
+#disabilitaImg:hover {
+	background-image: url(images/Stop-Alarm-Warning-icon-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px; 
+}
+
+#visualizzaMessaggiSxImg {
+	cursor: pointer; 
+	background-image: url(images/Chat-icon2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px; 
+	border: 0px;
+}
+
+#visualizzaMessaggiSxImg:hover {
+	background-image: url(images/Chat-icon2-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 36px;
+	height: 36px; 
+}
+
+#visualizzaImmaginiNonCompleteImg {
+	cursor: pointer; 
+	/*background-image: url(images/Search-Images-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;*/
+	width: 32px;
+	height: 32px; 
+	border: 0px;
+}
+
+.visualizzaImmaginiNonCompleteImg {
+	cursor: pointer; 
+	background-image: url(images/Search-Images-icon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+	border: 0px;
+}
+
+.visualizzaImmaginiNonCompleteImg_hover {
+	cursor: pointer; 
+	background-image: url(images/Search-Images-icon-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+	border: 0px;
+}
+
+
+#visualizzaImmaginiNonCompleteImg:hover {
+	background-image: url(images/Search-Images-icon-hover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 32px;
+	height: 32px; 
+}
+
+
+#iconaSezioneImg {
+	background-image: url(images/spacer.gif);
+	background-repeat: no-repeat;
+	width: 36px;
+	height: 36px;
+}
+
+#delimitaLinguettaSezione {
+	background-image: url(images/delimitaAvvisiArancio.gif);
+	width: 36px;
+	height: 20px;
+}
+
+
+.separatoreOperazioni {
+	float: left;
+	background-image: url(images/separatoreOperazioni.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 30px;
+}
+
+
+#titoloSezione {
+	background-image: url(images/ombra.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-bottom: 10px;
+}
+
+
+
+
